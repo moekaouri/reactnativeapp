@@ -18,4 +18,7 @@ this page is made using redux to make sure thate the connection between actions 
 the application will be responsive with error handling for https requests failure with an added loader while waiting for the data to be fetched nad unit tests.
 
 
+i will be adding extra simple auth user sign in and sign up using firebase with error handling
+
+
 
