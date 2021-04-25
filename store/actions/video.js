@@ -11,9 +11,10 @@ export const fetchVideos = () => {
 
     try {
       const response = await fetch(
-        'https://www.googleapis.com/youtube/v3/playlistItems?playlistId=PLykzf464sU98e8WKKGxceq9wqkZMo-WoY&maxResults=15&part=snippet%2CcontentDetails&key=AIzaSyBPGRmV9Kt9ptSki8hqPKi9VPlmWOc6txM'
+        'https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=justin&type=video&key=AIzaSyBPGRmV9Kt9ptSki8hqPKi9VPlmWOc6txM'
       );
-  
+      //another api key: AIzaSyAZptDJc5ACc2aBxArswatOPc53BRnlwrk
+//     'https://www.googleapis.com/youtube/v3/playlistItems?playlistId=PLykzf464sU98e8WKKGxceq9wqkZMo-WoY&maxResults=15&part=snippet%2CcontentDetails&key=AIzaSyBPGRmV9Kt9ptSki8hqPKi9VPlmWOc6txM'
       const resData = await response.json();
 
       const loadedVideos = [];
