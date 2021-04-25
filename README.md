@@ -1,4 +1,9 @@
 # reactnativeapp
+
+to run this app run:
+1- yarn 
+2-yarn ios
+
 react native test app
 This  React Native application will have 2 pages, that the user can switch between them using a top menu.
 
